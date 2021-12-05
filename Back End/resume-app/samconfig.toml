@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "alpha"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1kbqwp39pqyvg"
+s3_prefix = "alpha"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
